@@ -150,6 +150,7 @@ void menu (){
                     break;
                 }
             }while(item != 0);
+            break;
         case 0:
             break;    
         default:
