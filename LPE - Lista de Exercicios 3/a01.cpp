@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <cstdio>
+
 
 using namespace std;
 
@@ -26,9 +26,4 @@ void a01 (){
     }
     
     cout << "O total de caracter é de: " << total << endl << "O total de letras é de: " << totalLetras << endl;
-}
-int main(int argc, char const *argv[])
-{
-    a01 ();
-    return 0;
 }

@@ -14,13 +14,3 @@ int num_moedas(int moedas[], int troco, int size)
 	
 	return qte_moedas;
 }
-
-int main(int argc, char *argv[])
-{
-	int moedas[] = {1, 2, 5 ,10, 20};
-    int size = sizeof(moedas)/ sizeof (*moedas);
-	int troco = 26;
-	cout << "Numero de moedas: " << num_moedas(moedas, troco, size);
-
-	return 0;
-}

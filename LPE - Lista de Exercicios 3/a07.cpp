@@ -49,8 +49,4 @@ void a07(){
         a07.close();
     }
 }
-int main(int argc, char const *argv[])
-{
-    a07();
-    return 0;
-}
+

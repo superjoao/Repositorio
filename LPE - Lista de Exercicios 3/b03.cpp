@@ -99,9 +99,3 @@ void b03()
     binarySearch(ar, item, 0, size-1);
 
 }
-int main(int argc, char const *argv[])
-{
-    b03();
-    return 0;
-}
-

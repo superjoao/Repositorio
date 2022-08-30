@@ -25,8 +25,3 @@ void a06 (){
         a06.close();
     }
 }
-int main(int argc, char const *argv[])
-{
-    a06();
-    return 0;
-}

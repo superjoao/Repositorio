@@ -30,8 +30,3 @@ void a02 (){
     }   
 }
 
-int main(int argc, char const *argv[])
-{
-    a02();
-    return 0;
-}

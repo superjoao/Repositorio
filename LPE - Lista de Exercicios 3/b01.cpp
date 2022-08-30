@@ -21,10 +21,4 @@ void b01 (const int arr[], const int size){
      
 
 }
-int main(int argc, char const *argv[])
-{
-    int ar[5] = {1,2,3,4,5};
-    int size1 = sizeof(ar)/ sizeof(*ar);
-    b01(ar, size1);
-    return 0;
-}
+

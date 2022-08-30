@@ -20,11 +20,3 @@ void b02(int arr[], int const size){
         cout << arr[i] << " ";
     }
 }
-
-int main(int argc, char const *argv[])
-{
-    int ar[] = {3,7,5,9,6};
-    int size1 = sizeof(ar)/sizeof(*ar);
-    b02 (ar, size1);
-    return 0;
-}
